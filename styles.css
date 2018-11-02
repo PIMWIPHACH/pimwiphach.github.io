@@ -65,21 +65,23 @@ a:hover {
   color: white;
 }
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 .introduction {
-  margin: 40px;
+  margin: 0px;
+  color: #30336b;
+  padding: 40px;
 
 }
 
 
 header {
   text-align: center;
-  background: url('images/Background3.jpg') no-repeat top center ;
+  background: url('images/Background1.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 90px;
 
 }
 header {
@@ -100,12 +102,12 @@ header .profile-image:hover {
 }
 .tag {
   font-family: poppins;
-  color: white;
+  color: #30336b;
   font-weight: bold;
   padding: 2px;
   border-radius: 5px;
   display: block;
-  font-size: 1.5em;
+  font-size: 2em;
   line-height: 61px;
   margin: 10px auto;
   margin-block-start: 0.83em;
@@ -115,13 +117,13 @@ header .profile-image:hover {
 
 }
 .location {
-  color: white;
-  font-size: 20px;
+  color: #30336b;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .button {
-    background-color: orange;
+    background-color: #34e7e4;
     color: white;
     padding: 1px 20px;
     text-align: center;
@@ -148,7 +150,8 @@ header .profile-image:hover {
   box-sizing: border-box;
   text-align: center;
   display: inline-block;
-  max-height: 450px;
+  max-height: 650px;
+  color: #30336b;
 
 }
 
@@ -192,7 +195,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #00d2d3;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -201,13 +204,13 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #5352ed;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 50px 5PX 5px 0px;
 }
 
 footer .copyright {
@@ -229,9 +232,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
   opacity: .4;
   transition: all .5s;
 }
@@ -291,10 +294,20 @@ a.social:hover {
 
   }
 
+.upperfooter {
+    margin: 0px;
+    color: #30336b;
+    padding: 20px;
+    font-size: 16px;
+
+
   footer {
-    font-size: 1.3em;
+    font-size: 1em;
     max-width: 300px;
     margin: 40px auto;
+    color: #30336b;
+    display: block;
+    padding: 100px;
   }
 
 }
