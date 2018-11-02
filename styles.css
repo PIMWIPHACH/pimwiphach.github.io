@@ -294,20 +294,31 @@ a.social:hover {
 
   }
 
-.upperfooter {
+.footer {
+      color: #30336b;
+      padding-top: 30px;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin: 0 auto;
+  }
+
+.upper-footer {
     margin: 0px;
     color: #30336b;
     padding: 20px;
     font-size: 16px;
-
-
-  footer {
-    font-size: 1em;
-    max-width: 300px;
-    margin: 40px auto;
-    color: #30336b;
-    display: block;
-    padding: 100px;
   }
+
+  .bottom-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+      color: grey;
+  }
+
+
 
 }
