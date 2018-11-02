@@ -85,15 +85,6 @@ header {
 
 }
 
-header-experience {
-  text-align: center;
-  background: url('images/Background-experience.png') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 90px;
-  color: #30336b;
-
-}
 
 header {
   line-height: 3;
@@ -157,7 +148,7 @@ header .profile-image:hover {
   box-shadow: 0px 6px 20px 0px rgba(160,160,160,0.3);
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
   box-sizing: border-box;
   text-align: center;
   display: inline-block;
@@ -262,6 +253,14 @@ footer ul li {
 
   }
 
+  .btt-card {
+      display: flex;
+      color: grey;
+      padding: 10px 10px 10px 25px;
+      text-align: right;
+      float: right;
+
+    }
 
 a.social {
   display: inline-block;
