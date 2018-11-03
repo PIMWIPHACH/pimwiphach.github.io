@@ -238,7 +238,7 @@ footer ul li {
 .upper-footer {
     margin: 0px;
     color: #30336b;
-    padding: 20px;
+    padding: 20px 70px 20px;
     font-size: 16px;
   }
 
@@ -257,8 +257,6 @@ footer ul li {
       display: flex;
       color: grey;
       padding: 10px 10px 10px 25px;
-      text-align: right;
-      float: right;
 
     }
 
