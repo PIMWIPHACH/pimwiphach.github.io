@@ -53,9 +53,9 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: white;
 }
 .nav li {
   padding: 10px 10px 10px 25px;
@@ -72,7 +72,6 @@ a:hover {
   margin: 0px;
   color: #30336b;
   padding: 40px;
-
 }
 
 
@@ -91,7 +90,6 @@ header {
 }
 header .profile-image {
   margin-top: 20px;
-  margin-right: 200px
   width: 210px;
   height: 210px;
   border-radius: 50%;
@@ -111,10 +109,6 @@ header .profile-image:hover {
   display: block;
   line-height: 61px;
   margin: 10px auto;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 
 }
 .location {
@@ -138,8 +132,7 @@ header .profile-image:hover {
 }
 
 .card {
-  -webkit-box-sizing: border-box;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "poppins";
   position: relative;
   padding: 30px;
@@ -154,18 +147,16 @@ header .profile-image:hover {
   display: inline-block;
   max-height: 650px;
   color: #30336b;
-
 }
 
 .content-desc{
-  -webkit-box-sizing: border-box;
   line-height: 1.6em;
   top: 170px;
   text-align: center;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+  color: #30336b;
 }
 
 .card:hover {
@@ -173,25 +164,14 @@ header .profile-image:hover {
 }
 
 .grid {
-  line-height:  disc;
   display: block;
-  margin-block-start: auto;
-  margin-block-end: auto;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-
 }
 
 
 ul.skills {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 20px;
-  padding-inline-end: 20px;
+  padding: 0;
 }
 
 .skills li {
@@ -202,7 +182,6 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
   font-size: 14px;
-
 }
 
 .skills li:nth-child(odd) {
@@ -229,10 +208,6 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  margin-block-start: 2em;
-  margin-block-end: 2em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .upper-footer {
@@ -243,21 +218,16 @@ footer ul li {
   }
 
 .bottom-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
     justify-content: space-between;
     color: grey;
     padding: 10px 10px 10px 25px;
-
   }
 
   .btt-card {
-      display: flex;
-      color: grey;
-      padding: 10px 10px 10px 25px;
-
+    display: flex;
+    color: grey;
+    padding: 10px 10px 10px 25px;
     }
 
 a.social {
@@ -290,16 +260,13 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin-right: auto;
       margin-left: auto;
       padding-left: 15px;
       padding-right: 15px;
-
   }
 
   header {
@@ -319,9 +286,4 @@ a.social:hover {
   main p {
     line-height: 1.6em;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
   }
