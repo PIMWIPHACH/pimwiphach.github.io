@@ -89,7 +89,7 @@ header {
   line-height: 3;
 }
 header .profile-image {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 210px;
   height: 210px;
   border-radius: 50%;
@@ -132,7 +132,7 @@ header .profile-image:hover {
 }
 
 .card {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "poppins";
   position: relative;
   padding: 30px;
@@ -145,8 +145,10 @@ header .profile-image:hover {
   box-sizing: border-box;
   text-align: center;
   display: inline-block;
-  max-height: 650px;
   color: #30336b;
+  transition: all .7s;
+  border-radius: 6px;
+  border-bottom: 6px solid #c7ecee;
 }
 
 .content-desc{
@@ -160,7 +162,7 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: blue;
+  border-color: #ff9ff3;
 }
 
 .grid {
@@ -259,7 +261,7 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
-  .flex {
+.flex {
       display: flex;
       max-width: 1200px;
       justify-content: space-around;
@@ -278,7 +280,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-
   main {
     padding-top: 20px;
   }
@@ -286,4 +287,5 @@ a.social:hover {
   main p {
     line-height: 1.6em;
     display: block;
-  }
+   }
+}
